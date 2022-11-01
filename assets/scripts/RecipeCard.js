@@ -130,10 +130,9 @@ class RecipeCard extends HTMLElement {
     //           cardTemplate.html and the data passed in (You should only have one <article>,
     //           do not nest an <article> inside another <article>). You should use Template
     //           literals (tempalte strings) and element.innerHTML for this.
-    let starNumber = data.rating;
     let numImgSrc = "";
     let altNumImgSrc = "";
-    switch(starNumber){
+    switch(data.rating){
       case 0:
         numImgSrc = "/assets/images/icons/0-star.svg";
         altNumImgSrc = "0 stars";
