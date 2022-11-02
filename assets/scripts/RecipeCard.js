@@ -134,27 +134,27 @@ class RecipeCard extends HTMLElement {
     let altNumImgSrc = "";
     switch(data.rating){
       case 0:
-        numImgSrc = "/assets/images/icons/0-star.svg";
+        numImgSrc = "./assets/images/icons/0-star.svg";
         altNumImgSrc = "0 stars";
         break;
       case 1:
-        numImgSrc = "/assets/images/icons/1-star.svg";
+        numImgSrc = "./assets/images/icons/1-star.svg";
         altNumImgSrc = "1 stars";
         break;
       case 2:
-        numImgSrc = "/assets/images/icons/2-star.svg";
+        numImgSrc = "./assets/images/icons/2-star.svg";
         altNumImgSrc = "2 stars";
         break;
       case 3:
-        numImgSrc = "/assets/images/icons/3-star.svg";
+        numImgSrc = "./assets/images/icons/3-star.svg";
         altNumImgSrc = "3 stars";
         break;
       case 4:
-        numImgSrc = "/assets/images/icons/4-star.svg";
+        numImgSrc = "./assets/images/icons/4-star.svg";
         altNumImgSrc = "4 stars";
         break;
       case 5:
-        numImgSrc = "/assets/images/icons/5-star.svg";
+        numImgSrc = "./assets/images/icons/5-star.svg";
         altNumImgSrc = "5 stars";
         break;
     }
