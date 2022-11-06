@@ -139,7 +139,7 @@ class RecipeCard extends HTMLElement {
         break;
       case 1:
         numImgSrc = "./assets/images/icons/1-star.svg";
-        altNumImgSrc = "1 stars";
+        altNumImgSrc = "1 star";
         break;
       case 2:
         numImgSrc = "./assets/images/icons/2-star.svg";
@@ -168,7 +168,7 @@ class RecipeCard extends HTMLElement {
     <p class="organization">${data.organization}</p>
     <div class="rating">
       <span>${data.rating}</span>
-      <img src=${numImgSrc} alt=${numImgSrc}>     
+      <img src=${numImgSrc} alt='${altNumImgSrc}'>     
       <span>(${data.numRatings})</span>
     </div>
     <time>${data.lengthTime}</time>
