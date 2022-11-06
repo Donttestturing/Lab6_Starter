@@ -161,7 +161,7 @@ class RecipeCard extends HTMLElement {
 
     shadowArticle.innerHTML = `
     <img src=${data.imgSrc}
-      alt=${data.imgAlt}>
+      alt='${data.imgAlt}'>
     <p class="title">
       <a href=${data.titleLnk}>${data.titleTxt}</a>
     </p>
